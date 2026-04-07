@@ -20,6 +20,8 @@ d=$((2#10111))
 echo $((c&d))
 echo $((c|d))
 
+# regex
+
 line="aab"
 [[ $line =~ [[:space:]]*(a)?b ]]
 echo $?
